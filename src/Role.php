@@ -1,11 +1,11 @@
 <?php
 
-namespace Silvanite\Brandenburg;
+namespace bradoctech\Brandenburg;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
-use Silvanite\Brandenburg\Policy;
+use bradoctech\Brandenburg\Policy;
 
 class Role extends Model
 {

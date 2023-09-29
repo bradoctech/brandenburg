@@ -1,8 +1,8 @@
 <?php
 
-namespace Silvanite\Brandenburg;
+namespace bradoctech\Brandenburg;
 
-use Silvanite\Brandenburg\Role;
+use bradoctech\Brandenburg\Role;
 use Illuminate\Database\Eloquent\Model;
 
 class Permission extends Model

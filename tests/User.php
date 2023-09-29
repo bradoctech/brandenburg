@@ -1,8 +1,8 @@
 <?php
 
-namespace Silvanite\Brandenburg\Test;
+namespace bradoctech\Brandenburg\Test;
 
-use Silvanite\Brandenburg\Traits\HasRoles;
+use bradoctech\Brandenburg\Traits\HasRoles;
 use Illuminate\Foundation\Auth\User as BaseUser;
 
 class User extends BaseUser

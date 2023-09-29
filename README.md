@@ -2,8 +2,8 @@
 
 Laravel Authorization Package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Silvanite/brandenburg.svg?style=for-the-badge)](https://packagist.org/packages/silvanite/brandenburg)
-[![Build Status](https://img.shields.io/travis/Silvanite/brandenburg/master.svg?style=for-the-badge)](https://travis-ci.org/Silvanite/brandenburg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/bradoctech/brandenburg.svg?style=for-the-badge)](https://packagist.org/packages/bradoctech/brandenburg)
+[![Build Status](https://img.shields.io/travis/bradoctech/brandenburg/master.svg?style=for-the-badge)](https://travis-ci.org/bradoctech/brandenburg)
 
 A opinionated Authorization package to closely integrate with standard Laravel Gates. It differs from other authorization packages by using hard-coded permissions defined within gate policies, rather than duplicating them within the Database.
 
@@ -26,7 +26,7 @@ Unfortunately I am no longer actively working in the Laravel ecosystem and as su
 ## Installation
 
 ```sh
-composer require silvanite/brandenburg
+composer require bradoctech/brandenburg
 ```
 
 This package uses auto-loading in Laravel 5.5 of both the service provider and the `BrandenburgPolicy` Facade
@@ -37,12 +37,12 @@ For Laravel 5.1 - 5.4 load the Service Provider and Facade.
 // config/app.php
 'providers' => [
     ...
-    Silvanite\Brandenburg\Providers\BrandenburgServiceProvider::class,
+    bradoctech\Brandenburg\Providers\BrandenburgServiceProvider::class,
 ];
 
 'aliases' => [
     ...
-    'BrandenburgPolicy' => Silvanite\Brandenburg\Facades\PolicyFacade::class,
+    'BrandenburgPolicy' => bradoctech\Brandenburg\Facades\PolicyFacade::class,
 ],
 ```
 
@@ -63,7 +63,7 @@ php artisan vendor:publish --tag=brandenburg-config
 This package provides two traits. The main trait is intended for your user model which enabled model relationships.
 
 ```php
-use Silvanite\Brandenburg\Traits\HasRoles;
+use bradoctech\Brandenburg\Traits\HasRoles;
 
 class User
 {
@@ -87,10 +87,10 @@ if ($this->nobodyHasAccess('create-articles')) {
 
 ### Creating Roles
 
-Use the `Silvanite\Brandenburg\Role` model to create and manage user roles.
+Use the `bradoctech\Brandenburg\Role` model to create and manage user roles.
 
 ```php
-$editor = Silvanite\Brandenburg\Role::create([
+$editor = bradoctech\Brandenburg\Role::create([
     'name' => 'Editor',
     'slug' => 'editor',
 ]);
@@ -145,7 +145,7 @@ $user->assignRole('editor');
 $user->removeRole('editor');
 
 // Using model
-use Silvanite\Brandenburg\Role;
+use bradoctech\Brandenburg\Role;
 
 $user->assignRole(Role::first());
 $user->removeRole(Role::first());

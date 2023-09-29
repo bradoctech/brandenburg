@@ -1,9 +1,9 @@
 <?php
 
-namespace Silvanite\Brandenburg\Test;
+namespace bradoctech\Brandenburg\Test;
 
 use Carbon\Carbon;
-use Silvanite\Brandenburg\Role;
+use bradoctech\Brandenburg\Role;
 
 class RolesTest extends TestCase
 {

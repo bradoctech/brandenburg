@@ -1,15 +1,15 @@
 <?php
 
-namespace Silvanite\Brandenburg\Test;
+namespace bradoctech\Brandenburg\Test;
 
 use Gate;
 use Route;
 use Illuminate\Routing\Router;
-use Silvanite\Brandenburg\Policy;
-use Silvanite\Brandenburg\Permission;
+use bradoctech\Brandenburg\Policy;
+use bradoctech\Brandenburg\Permission;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
-use Silvanite\Brandenburg\Traits\ValidatesPermissions;
+use bradoctech\Brandenburg\Traits\ValidatesPermissions;
 
 class TestServiceProvider extends ServiceProvider
 {

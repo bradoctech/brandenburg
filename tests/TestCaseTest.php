@@ -1,6 +1,6 @@
 <?php
 
-namespace Silvanite\Brandenburg\Test;
+namespace bradoctech\Brandenburg\Test;
 
 class TestCaseTest extends TestCase
 {

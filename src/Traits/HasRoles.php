@@ -1,9 +1,9 @@
 <?php
 
-namespace Silvanite\Brandenburg\Traits;
+namespace bradoctech\Brandenburg\Traits;
 
 use Illuminate\Support\Facades\Schema;
-use Silvanite\Brandenburg\Role;
+use bradoctech\Brandenburg\Role;
 
 trait HasRoles
 {

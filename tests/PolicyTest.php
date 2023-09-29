@@ -1,8 +1,8 @@
 <?php
 
-namespace Silvanite\Brandenburg\Test;
+namespace bradoctech\Brandenburg\Test;
 
-use Silvanite\Brandenburg\Policy;
+use bradoctech\Brandenburg\Policy;
 
 class PolicyTest extends TestCase
 {

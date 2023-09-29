@@ -1,6 +1,6 @@
 <?php
 
-namespace Silvanite\Brandenburg\Facades;
+namespace bradoctech\Brandenburg\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

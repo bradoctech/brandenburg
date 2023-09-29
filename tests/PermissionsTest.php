@@ -1,10 +1,10 @@
 <?php
 
-namespace Silvanite\Brandenburg\Test;
+namespace bradoctech\Brandenburg\Test;
 
 use Carbon\Carbon;
-use Silvanite\Brandenburg\Role;
-use Silvanite\Brandenburg\Permission;
+use bradoctech\Brandenburg\Role;
+use bradoctech\Brandenburg\Permission;
 
 class PermissionsTest extends TestCase
 {

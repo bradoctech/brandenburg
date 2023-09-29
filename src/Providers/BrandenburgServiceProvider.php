@@ -1,10 +1,10 @@
 <?php
 
-namespace Silvanite\Brandenburg\Providers;
+namespace bradoctech\Brandenburg\Providers;
 
 use Gate;
 use Illuminate\Routing\Router;
-use Silvanite\Brandenburg\Policy;
+use bradoctech\Brandenburg\Policy;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Config\Repository as Config;
@@ -49,7 +49,7 @@ class BrandenburgServiceProvider extends ServiceProvider
      * Register the Policies module as a Facade
      *
      * @param string $IoC name of the container
-     * @return Silvanite\Brandenburg\Policy
+     * @return bradoctech\Brandenburg\Policy
      */
     private function registerPolicy($container = "BrandenburgPolicy")
     {

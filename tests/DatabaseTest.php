@@ -1,6 +1,6 @@
 <?php
 
-namespace Silvanite\Brandenburg\Test;
+namespace bradoctech\Brandenburg\Test;
 
 use Carbon\Carbon;
 

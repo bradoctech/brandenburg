@@ -1,10 +1,10 @@
 <?php
 
-namespace Silvanite\Brandenburg\Test;
+namespace bradoctech\Brandenburg\Test;
 
-use Silvanite\Brandenburg\Facades\PolicyFacade;
+use bradoctech\Brandenburg\Facades\PolicyFacade;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use Silvanite\Brandenburg\Providers\BrandenburgServiceProvider;
+use bradoctech\Brandenburg\Providers\BrandenburgServiceProvider;
 
 class TestCase extends OrchestraTestCase
 {
@@ -25,7 +25,7 @@ class TestCase extends OrchestraTestCase
     /**
      * Load package service provider
      * @param  \Illuminate\Foundation\Application $app
-     * @return Silvanite\Brandenburg\BrandenburgServiceProvider
+     * @return bradoctech\Brandenburg\BrandenburgServiceProvider
      */
     protected function getPackageProviders($app)
     {
@@ -63,7 +63,7 @@ class TestCase extends OrchestraTestCase
             'prefix'   => '',
         ]);
 
-        $app['config']->set('brandenburg.userModel', 'Silvanite\Brandenburg\Test\User');
+        $app['config']->set('brandenburg.userModel', 'bradoctech\Brandenburg\Test\User');
     }
 
     protected function setupDatabase($app)

@@ -17,12 +17,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Silvanite/Brandenburg.git"
+        "url": "git+https://github.com/bradoctech/brandenburg.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Silvanite/Brandenburg/issues"
+        "url": "https://github.com/bradoctech/brandenburg/issues"
     },
-    "homepage": "https://github.com/Silvanite/Brandenburg#readme"
+    "homepage": "https://github.com/bradoctech/brandenburg#readme"
 }

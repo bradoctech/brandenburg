@@ -1,6 +1,6 @@
 <?php
 
-namespace Silvanite\Brandenburg;
+namespace bradoctech\Brandenburg;
 
 use Illuminate\Support\Facades\Gate;
 

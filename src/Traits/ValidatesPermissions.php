@@ -1,8 +1,8 @@
 <?php
 
-namespace Silvanite\Brandenburg\Traits;
+namespace bradoctech\Brandenburg\Traits;
 
-use Silvanite\Brandenburg\Permission;
+use bradoctech\Brandenburg\Permission;
 
 trait ValidatesPermissions
 {
