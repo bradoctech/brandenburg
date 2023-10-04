@@ -10,21 +10,21 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "bradoctech\\Brandenburg\\": "src/"
+            "Bradoctech\\Brandenburg\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "bradoctech\\Brandenburg\\Test\\": "tests/"
+            "Bradoctech\\Brandenburg\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "bradoctech\\Brandenburg\\Providers\\BrandenburgServiceProvider"
+                "Bradoctech\\Brandenburg\\Providers\\BrandenburgServiceProvider"
             ],
             "aliases": {
-                "BrandenburgPolicy": "bradoctech\\Brandenburg\\Facades\\PolicyFacade"
+                "BrandenburgPolicy": "Bradoctech\\Brandenburg\\Facades\\PolicyFacade"
             }
         }
     },
