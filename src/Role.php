@@ -1,11 +1,11 @@
 <?php
 
-namespace bradoctech\Brandenburg;
+namespace Bradoctech\Brandenburg;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
-use bradoctech\Brandenburg\Policy;
+use Bradoctech\Brandenburg\Policy;
 
 class Role extends Model
 {

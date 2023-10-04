@@ -1,8 +1,8 @@
 <?php
 
-namespace bradoctech\Brandenburg\Traits;
+namespace Bradoctech\Brandenburg\Traits;
 
-use bradoctech\Brandenburg\Permission;
+use Bradoctech\Brandenburg\Permission;
 
 trait ValidatesPermissions
 {

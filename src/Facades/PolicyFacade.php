@@ -1,6 +1,6 @@
 <?php
 
-namespace bradoctech\Brandenburg\Facades;
+namespace Bradoctech\Brandenburg\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
